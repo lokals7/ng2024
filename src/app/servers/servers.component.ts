@@ -8,7 +8,7 @@ import { from } from 'rxjs';
 })
 export class ServersComponent {
   allowNewServer = false;
-  serverCreationStatus = "No server was created!";
+  serverCreationStatus = "No server was created!!";
   serverName = "Test";
   serverCreated = false;
   servers = ['Testserver', 'Testserver 2', 'Testserver 3'];
